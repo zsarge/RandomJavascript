@@ -8,6 +8,7 @@ I tried to explain what was happening in the commments, but don't be afraid to g
 
 The output is in `output.txt` in case you don't have node on your computer.
 
+While they are all basically the same, I would use method one, as I find that syntax to be the most pleasing.
 
 Hope this helps!
 

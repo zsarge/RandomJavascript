@@ -1,5 +1,3 @@
-// assume input is a bunch of minecraft commands, seperated by semicolons.
-
 const commands = {
 	summon(entity) {
 		console.log(`Summoning ${entity}...`)
