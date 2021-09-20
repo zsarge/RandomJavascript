@@ -1,10 +1,10 @@
 `use strict`;
 
-countExclamationMarks = (str) =>
+countExclamationMarks = str =>
     !eval(
         Array
             .from(str)
-            .filter(char => char === '!')
+            .filter(char => char === "!")
             .join("") + "0"
     )
     ? "even !'s"
