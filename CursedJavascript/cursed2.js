@@ -1,16 +1,14 @@
-`use strict`; 
+`use strict`;
 
-
-function countExclamationMarks(str) {
-    return !eval(
+countExclamationMarks = (str) =>
+    !eval(
         Array
             .from(str)
             .filter(char => char === '!')
             .join("") + "0"
-    ) 
-    ? "even !'s" 
+    )
+    ? "even !'s"
     : "odd !'s"
-}
 
 console.log(countExclamationMarks("!!!"))
 console.log(countExclamationMarks("!!!!"))
