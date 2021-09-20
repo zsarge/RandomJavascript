@@ -28,3 +28,12 @@ x = 10;
 for(x++;--x;x--)
     console.log(x)
 
+title("console.log part 2")
+x = [console]
+y = "log"
+
+x[0][y](0)
+
+title("famous banana")
+console.log(('b' + 'a' + + 'a' + 'a').toLowerCase())
+
