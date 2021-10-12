@@ -30,10 +30,35 @@ for(x++;--x;x--)
 
 title("console.log part 2")
 x = [console]
-y = "log"
+y = ["log"]
 
-x[0][y](0)
+x[0][y[0]](0)
+
+title("console.log part 3")
+global.x[0][global.y[0]](0)
 
 title("famous banana")
 console.log(('b' + 'a' + + 'a' + 'a').toLowerCase())
+
+title("number")
+Number.prototype.n = new Number 
+console.log((0).n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n + 0)
+
+title("labels")
+up:
+{
+    console.log(0)
+
+    break up
+
+    this.is.a.no.mans.zone
+    a-a-a-a-a-a-a-a
+
+    alskjd
+}
+
+
+
+
+
 
