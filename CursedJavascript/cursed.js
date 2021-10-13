@@ -1,5 +1,5 @@
 `use strict`;
-/* 
+/*
  * Cursed Javascript: Javascript that pains the eyes and soul.
  * Zack Sargent
  */
@@ -12,7 +12,7 @@ title("Rebinding keywords:")
 let = console.log
 let("Hello World!") == 3
 
-/* The following are translations of 
+/* The following are translations of
  * https://stackoverflow.com/q/1642028
  */
 title("The `--> operator`")
@@ -41,7 +41,7 @@ title("famous banana")
 console.log(('b' + 'a' + + 'a' + 'a').toLowerCase())
 
 title("number")
-Number.prototype.n = new Number 
+Number.prototype.n = new Number
 console.log((0).n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n.n + 0)
 
 title("labels")
@@ -79,4 +79,14 @@ promise = new Promise((resolve) => r = resolve)
 r(20)
 
 console.log(promise)
+
+Object.defineProperty(global, 'variable', {
+    get: function() {
+        title("reading seemingly normal variables can now have side effects")
+        return 3
+    }
+});
+
+if (1 < variable)
+    console.log("")
 
