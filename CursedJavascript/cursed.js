@@ -57,8 +57,19 @@ up:
     alskjd
 }
 
+title("labled function")
+LabledFunction: function f(x) {
+    console.log("aksljd")
+}
+f(x)
 
 
+title("python be like")
+function* range(n) {
+    for (let i = 0; i < n; i++)
+        yield i
+}
 
-
+for (i of range(10))
+    console.log(i)
 
