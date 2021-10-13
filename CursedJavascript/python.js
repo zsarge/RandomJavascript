@@ -24,6 +24,8 @@ function range(...args) {
 
 print = console.log
 
+// I just found a more extreme version of this:
+// https://github.com/tobytailor/def.js
 function def(name, func) {
     if (typeof func == 'function')
         global[name] = func

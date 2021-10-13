@@ -22,10 +22,10 @@ high = 10;
 while (high --> 0)
 	console.log(high)
 
-title("Decrementing by two")
-x = 10;
+title("Decrementing by three")
+x = 11;
 
-for(x++;--x;x--)
+for(x--;x--;x--)
     console.log(x)
 
 title("console.log part 2")
