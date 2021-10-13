@@ -65,7 +65,7 @@ f(x)
 
 title("python be like")
 function* range(n) {
-    for (let i = 0; i < n; i++)
+    for (i = 0; i < n; i++)
         yield i
 }
 
