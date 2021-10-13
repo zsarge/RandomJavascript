@@ -63,7 +63,6 @@ LabledFunction: function f(x) {
 }
 f(x)
 
-
 title("python be like")
 function* range(n) {
     for (let i = 0; i < n; i++)
@@ -72,4 +71,12 @@ function* range(n) {
 
 for (i of range(10))
     console.log(i)
+
+title("resolve a promise from outside a function")
+
+r = "resolve"
+promise = new Promise((resolve) => r = resolve)
+r(20)
+
+console.log(promise)
 
