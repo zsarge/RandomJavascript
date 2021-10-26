@@ -24,6 +24,13 @@ function range(...args) {
 
 print = console.log
 
+function map(func, arr) {
+    result = []
+    for (const ele of arr)
+        result.push(func()(ele))
+    return result
+}
+
 // I just found a more extreme version of this:
 // https://github.com/tobytailor/def.js
 function def(name, func) {
@@ -58,11 +65,15 @@ for (i of range(1, 5, 2))
 print("")
 
 // python lambda
+
+
 lambda: x = console
 
 x.log("lambda")
 
-lambda: increment = (n) => n + 1
+print(map(_=>{ lambda: return x => x + 2 }, range(10)))
+
+lambda: increment = n => n + 1
 
 print(increment(0))
 
