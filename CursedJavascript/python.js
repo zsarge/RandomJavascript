@@ -66,7 +66,6 @@ print("")
 
 // python lambda
 
-
 lambda: x = console
 
 x.log("lambda")
